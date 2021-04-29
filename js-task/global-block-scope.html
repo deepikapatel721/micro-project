@@ -1,0 +1,16 @@
+<html>
+<title>global-block-scope</title>
+<head>
+   <script>
+      console.log("block start");
+      {
+          console.log("inside block");
+          const x=5;
+          console.log(x);
+      }
+      console.log("block end");
+   </script>
+</head>
+<body>
+</body>
+</html>

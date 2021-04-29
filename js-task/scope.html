@@ -1,0 +1,30 @@
+<html>
+<title>scope</title>
+<head>
+   <script>
+       //variable scope
+       //declare function
+        function f(x) {
+           return x/2;
+        }
+
+        //call function
+        console.log(f(10));
+
+        //lexical scope
+        function f1()
+        {
+            console.log("function");
+        }
+        function f2()
+        {
+            console.log("f2");
+        }
+        //call random function
+        f2();
+        f1();
+   </script>
+</head>
+<body>
+</body>
+</html>
